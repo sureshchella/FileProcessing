@@ -91,7 +91,7 @@ public class ProcessWordCount {
 		int difference = 0;
 		for (Entry<Integer, WordAnalyzerMapper> entry : searchMap.entrySet()) {
 			if (optTwoInput.equals(entry.getValue().getKey())) {
-				System.out.println("Found word :" + entry.getValue().getKey() + " And its Rank is : " + entry.getKey());
+				System.out.println("Found word : " + entry.getValue().getKey() + " And its Rank is : " + entry.getKey());
 				currentPosition = entry.getKey();
 				// System.out.println(currentPosition);
 
@@ -103,7 +103,7 @@ public class ProcessWordCount {
 			if (difference > 0) {
 				for (Entry<Integer, WordAnalyzerMapper> entry : searchMap.entrySet()) {
 					if (difference == entry.getKey().intValue()) {
-						System.out.println("Found word :" + entry.getValue().getKey());
+						System.out.println("Found word : " + entry.getValue().getKey());
 						break;
 					}
 				}
@@ -120,7 +120,7 @@ public class ProcessWordCount {
 
 				for (Entry<Integer, WordAnalyzerMapper> entry : searchMap.entrySet()) {
 					if (searchIndex.equals(entry.getKey())) {
-						System.out.println("Found word :" + entry.getValue().getKey());
+						System.out.println("Found word : " + entry.getValue().getKey());
 					}
 				}
 			} else {
@@ -143,7 +143,7 @@ public class ProcessWordCount {
 		boolean isKeyFound = false;
 		for (Entry<Integer, WordAnalyzerMapper> entry : searchMap.entrySet()) {
 			if (optOneInput == (entry.getKey())) {
-				System.out.println("Found word :" + entry.getValue().getKey() + " And its word count is : " + entry.getValue().getValue());
+				System.out.println("Found word : " + entry.getValue().getKey() + " And its word count is : " + entry.getValue().getValue());
 				isKeyFound = true;
 			}
 		}
@@ -163,10 +163,10 @@ public class ProcessWordCount {
 		@SuppressWarnings("resource")
 		Scanner newScanner = new Scanner(System.in);
 		System.out.println("Please enter the functionality which needs to be performed : ");
-		System.out.println("1. Press 1 to Find the word count of the respective Word! ");
-		System.out.println("2. Press 2 to Find the back and forth of the number with index mentioned!");
-		System.out.println("3. Press 3 to Search word by Rank!");
-		System.out.println("4. Press 4 to Exit");
+		System.out.println("1. Enter 1 to Find the word count of the respective Word! ");
+		System.out.println("2. Enter 2 to Find the back and forth of the number with index mentioned!");
+		System.out.println("3. Enter 3 to Search word by Rank!");
+		System.out.println("4. Enter 4 to Exit");
 
 		System.out.println("please enter an option to proceed! ");
 		try {
