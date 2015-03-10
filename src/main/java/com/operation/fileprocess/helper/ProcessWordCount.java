@@ -69,7 +69,7 @@ public class ProcessWordCount {
 		boolean isWordFound = false;
 		for (Entry<Integer, WordAnalyzerMapper> entry : searchMap.entrySet()) {
 			if (optOneInput.equals(entry.getValue().getKey())) {
-				System.out.println("Found word :" + entry.getValue().getKey() + "And its Rank is : " + entry.getKey());
+				System.out.println("Found word : " + entry.getValue().getKey() + "And its Rank is : " + entry.getKey());
 				isWordFound = true;
 			}
 		}
