@@ -3,7 +3,7 @@
 #Process the file paralelly and with search functionalities!
 
 The application can be executed by executing the main class ConsumerService.java or by executing the jar file in command prompt
-by "java -jar FileProcess.jar"
+by "java -jar FileProcessing.jar"
 
 Functionalities:
 
