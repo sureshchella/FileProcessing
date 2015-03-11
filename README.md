@@ -1,6 +1,6 @@
 # FileProcessing
 
-#Process the file paralelly and with search functionalities!
+#Process the file parallely and with search functionalities by rank respective to word count!
 
 The application can be executed by executing the main class ConsumerService.java or by executing the jar file in command prompt
 by "java -jar FileProcessing.jar"
